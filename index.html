@@ -28,21 +28,49 @@
         <li>A folder <strong>Epic/banner</strong> will appear inside a folder <strong>Imported</strong>. You can drag Epic/banner to the top level of the Bookmarks Bar folder so it appears in your bookmarks bar</li>
       </ol>
       <hr class="my-4">
-      <a href="javascript:window.guardian.readerRevenue.showMeTheEpic()" class="btn btn-primary btn-lg btn-block">
-        Show me the epic!
-      </a>
-      <a href="javascript:window.guardian.readerRevenue.showMeTheBanner()" class="btn btn-secondary btn-lg btn-block">
-        Show me the banner!
-      </a>
-      <a href="javascript:window.guardian.readerRevenue.showNextVariant()" class="btn btn-success btn-lg btn-block">
-        Next variant
-      </a>
-      <a href="javascript:window.guardian.readerRevenue.showPreviousVariant()" class="btn btn-danger btn-lg btn-block">
-        Previous variant
-      </a>
-      <a href="javascript:window.guardian.readerRevenue.changeGeolocation()" class="btn btn-warning btn-lg btn-block">
-        Change geolocation
-      </a>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <h2>As non-supporter</h2>
+            <h5>(to see normal acquisition messaging)</h5>
+            <a href="javascript:window.guardian.readerRevenue.showMeTheEpic()" class="btn btn-primary btn-lg btn-block">
+              Show me the epic!
+            </a>
+            <a href="javascript:window.guardian.readerRevenue.showMeTheBanner()" class="btn btn-secondary btn-lg btn-block">
+              Show me the banner!
+            </a>
+            <a href="javascript:window.guardian.readerRevenue.showNextVariant()" class="btn btn-success btn-lg btn-block">
+              Next variant
+            </a>
+            <a href="javascript:window.guardian.readerRevenue.showPreviousVariant()" class="btn btn-danger btn-lg btn-block">
+              Previous variant
+            </a>
+            <a href="javascript:window.guardian.readerRevenue.changeGeolocation()" class="btn btn-warning btn-lg btn-block">
+              Change geolocation
+            </a>
+          </div>
+          <div class="col-sm">
+            <h2>As supporter</h2>
+            <h5>(e.g. to see thank you epic)</h5>
+            <a href="javascript:window.guardian.readerRevenue.showMeTheEpic(true)" class="btn btn-primary btn-lg btn-block">
+              Show me the epic!
+            </a>
+            <a href="javascript:window.guardian.readerRevenue.showMeTheBanner(true)" class="btn btn-secondary btn-lg btn-block">
+              Show me the banner!
+            </a>
+            <a href="javascript:window.guardian.readerRevenue.showNextVariant(true)" class="btn btn-success btn-lg btn-block">
+              Next variant
+            </a>
+            <a href="javascript:window.guardian.readerRevenue.showPreviousVariant(true)" class="btn btn-danger btn-lg btn-block">
+              Previous variant
+            </a>
+            <a href="javascript:window.guardian.readerRevenue.changeGeolocation(true)" class="btn btn-warning btn-lg btn-block">
+              Change geolocation
+            </a>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 </body>
