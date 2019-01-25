@@ -1,0 +1,49 @@
+
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <title>Reader Revenue Bookmarklets</title>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1 class="display-4">Reader Revenue Bookmarklets!</h1>
+      <h3>For use on <a href="https://www.theguardian.com">theguardian.com</a> (they will not do anything when clicked if you're not on The Guardian's website)</h2>
+      <p class="lead">Just drag each button below up to your Chrome bookmarks bar. Then go to theguardian.com (DEV, CODE, or PROD) and click them.</p>
+      <p class="lead">Can't drag to your bookmarks bar?</p>
+      <ol>
+        <li>Click this link to download bookmarklets for Chrome import:
+          <a href="http://reader-revenue-bookmarklets.s3-website-eu-west-1.amazonaws.com/reader-revenue-bookmarklets-for-chrome-import.html" download class="btn btn-info btn-sm">Bookmarklets for Chrome import</a>
+        </li>
+        <li>Go to <strong>Bookmarks > Bookmark Manager</strong> in Chrome's top menu</li>
+        <li>Click the three dots in the top right corner of the Bookmark Manager</li>
+        <li>Choose <strong>Import Bookmarks</strong></li>
+        <li>Select the <strong>reader-revenue-bookmarklets-for-chrome-import.html</strong> file you've just downloaded. It should be in your Downloads folder</li>
+        <li>A folder <strong>Epic/banner</strong> will appear inside a folder <strong>Imported</strong>. You can drag Epic/banner to the top level of the Bookmarks Bar folder so it appears in your bookmarks bar</li>
+      </ol>
+      <hr class="my-4">
+      <a href="javascript:window.guardian.readerRevenue.showMeTheEpic()" class="btn btn-primary btn-lg btn-block">
+        Show me the epic!
+      </a>
+      <a href="javascript:window.guardian.readerRevenue.showMeTheBanner()" class="btn btn-secondary btn-lg btn-block">
+        Show me the banner!
+      </a>
+      <a href="javascript:window.guardian.readerRevenue.showNextVariant()" class="btn btn-success btn-lg btn-block">
+        Next variant
+      </a>
+      <a href="javascript:window.guardian.readerRevenue.showPreviousVariant()" class="btn btn-danger btn-lg btn-block">
+        Previous variant
+      </a>
+      <a href="javascript:window.guardian.readerRevenue.changeGeolocation()" class="btn btn-warning btn-lg btn-block">
+        Change geolocation
+      </a>
+    </div>
+  </div>
+</body>
+</html>
